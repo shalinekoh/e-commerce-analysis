@@ -9,7 +9,8 @@ The objective of this data analysis project is to gain insight into the sales da
 ## Dataset Description
 The dataset is obtained from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) and consists of real commercial data. The dataset has information of 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil.
 
-The following schema describes the relationship of the multiple datasets. ![Schema](images/schema.png)
+The following schema describes the relationship of the multiple datasets. .
+![Schema](viz/ERD.png)
 
 ## Business Questions to Address:
 1. How many unique cities and states are present in the dataset?
@@ -33,6 +34,7 @@ The following schema describes the relationship of the multiple datasets. ![Sche
 1. Data Pre-processing:
    - Clean and pre-process the raw dataset to ensure data quality.
    - Handle missing values to prevent any bias in the analysis.
+   - The code can be found [here](exploratory_data_analysis.ipynb)
 2. Feature Engineering:
    - Extract timestamps from the dataset to analyze temporal trends.
    - Create new columns such as Hour, Day, and Month to understand the distribution of sales over different time periods.
@@ -42,7 +44,9 @@ The following schema describes the relationship of the multiple datasets. ![Sche
    - Analyze user behavior patterns, such as purchase frequency, popular products, and preferred payment methods.
    - Examine product popularity across different categories and identify any trends or patterns.
    - Utilize the engineered features (Hour, Day, Month) to identify peak sales periods, weekly trends, and seasonal variations.
+   - The code can be found [here](analysis.ipynb)
 4. Conclusion:
    - Summarize the findings and insights obtained from the analysis.
    - Present visualizations, such as charts and graphs, to effectively communicate key trends and patterns.
    - Provide actionable recommendations based on the analysis to improve business strategies and decision-making.
+   - The detailed report of the findings can be found [here](report/E-Commerce-Report.pdf)
